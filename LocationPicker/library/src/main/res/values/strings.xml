@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="google_location_api_key">---replace_with_Your_api_key-</string>
+
+    <string name="current_location">Current Location</string>
+
+    <string name="nonetwork">Unable to connect server</string>
+
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+</resources>
