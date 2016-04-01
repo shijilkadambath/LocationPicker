@@ -8,13 +8,9 @@ Simple Android libarary for picking a location using google location api.Pick lo
   2. Manage progress view in overriding methode protected void      	updateUIWidgets(boolean loading).
 
   3. To get current location call methode pickDeviceCurrentLocation();
-   4. To get google place suggestion list in your 	AutoCompleteTextView set adapter as
-
-mAutocompleteView.setOnItemClickListener(this);
-mAutocompleteView.setAdapter(getPlaceAutocompleteAdapter());
-
-
-   5. get current location and selected loaction in suggestion list from overriding methode void onReceiveLocation(String mCityOutput,String mAddressOutput, String mLatitudeOutput, String mLongitudeOutput)
+  4. To get google place suggestion list in your AutoCompleteTextView set adapter as mAutocompleteView.setOnItemClickListener(this);
+      and mAutocompleteView.setAdapter(getPlaceAutocompleteAdapter());
+  5. get current location and selected loaction in suggestion list from overriding methode void onReceiveLocation(String        mCityOutput,String mAddressOutput, String mLatitudeOutput, String mLongitudeOutput)
 
 
 
